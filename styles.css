@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3; /* Light gray background */
+    color: #333; /* Dark text for readability */
+}
+
+header {
+    background: #2c3e50; /* Darker blue-gray header */
+    color: white; /* White text */
+    text-align: center;
+    padding: 30px 20px; /* Increased padding */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em; /* Larger title */
+}
+
+header p {
+    font-size: 1.2em; /* Slightly larger subtitle */
+    margin: 10px 0 0; /* Margin adjustments */
+}
+
+.about, .skills, .projects, .resume, .contact {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white; /* White background for sections */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+}
+
+.profile-pic {
+    max-width: 180px; /* Fixed size for profile picture */
+    border-radius: 50%; /* Circular image */
+    display: block;
+    margin: 10px auto; /* Center the image */
+}
+
+h2 {
+    color: #2980b9; /* Bright blue for section headings */
+    border-bottom: 2px solid #2980b9; /* Underline */
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.project {
+    margin-bottom: 20px; /* Space between projects */
+    padding: 15px; /* Padding for project sections */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.2s; /* Animation for hover */
+}
+
+.project:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #2c3e50; /* Darker blue-gray footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #2980b9; /* Bright blue for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
